@@ -11,6 +11,6 @@ About the script and the tidy dataset
 
 I created a script called run_analysis.R which will merge the test and training sets together. 
 
-I downloaded the data and merged it. After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept. Appropriately labels the data set with descriptive variable names.
+I downloaded the data and merged it. After merging testing and training, I used descriptive activity names to name the activities in the data set. Only columns that have to do with mean and standard deviation are kept. 
 
 Finally, I saved the clean data in a second, independent tidy data set, called TidydataW4A, with the average of each variable for each activity and each subject
