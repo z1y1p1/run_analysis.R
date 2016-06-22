@@ -1,3 +1,11 @@
+This repository follows the requirements of the Coursera course "Getting and Cleaning data", the fourth component of the Data Science specialization. About the raw data
+
+The original dataset is Human Activity Recognition Using Smartphones Data Set. The data was obtained from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The data was downloaded, merged according to Subject, Activity, and Features, before all these are merged into one big dataset. 
+Then the descriptive activity names were given to name the activities in the data set, and exported. 
+
+The following is a list of the variables in the dataset. 
  [1] "subject"                                       
  [2] "activity"                                      
  [3] "timeBodyAccelerometer-mean()-X"                
@@ -65,4 +73,4 @@
 [65] "frequencyBodyGyroscopeMagnitude-mean()"        
 [66] "frequencyBodyGyroscopeMagnitude-std()"         
 [67] "frequencyBodyGyroscopeJerkMagnitude-mean()"    
-[68] "frequencyBodyGyroscopeJerkMagnitude-std()"    
+[68] "frequencyBodyGyroscopeJerkMagnitude-std()"   
